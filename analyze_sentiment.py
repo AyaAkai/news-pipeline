@@ -5,7 +5,6 @@ from vaderSentiment.vaderSentiment import SentimentIntensityAnalyzer
 input_file = 'data/egypt_news_2025-07-02.json'
 output_file = 'data/newsv.csv'
 
-# تم حذف 'date' من الـ fields
 fields = ['title', 'source', 'publishedAt', 'sentiment', 'sentiment_score']
 analyzer = SentimentIntensityAnalyzer()
 
