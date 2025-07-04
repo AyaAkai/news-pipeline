@@ -119,7 +119,7 @@ def upload_to_s3():
 with DAG(
     'newsapi_dag',
     default_args=default_args,
-    schedule_interval=None,  # هتتغير لاحقًا للجدولة الأسبوعية
+    schedule_interval=None,  
     catchup=False,
 ) as dag:
 
